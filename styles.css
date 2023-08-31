@@ -66,7 +66,6 @@ li a {
 @media (max-width: 712px) {
     .hamburger {
         display: block;
-        /* margin-right: 7px; */
         cursor: pointer;
     }
 
@@ -92,6 +91,14 @@ li a {
         text-align: center;
         background-color: #262626;
         transition: .3s;
+    }
+
+    li {
+        padding: 20px 0;
+    }
+
+    li a:hover {
+        color: red;
     }
 
     .nav-links.active {
